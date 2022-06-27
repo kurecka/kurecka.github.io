@@ -1,6 +1,7 @@
 {
   "name": "personal_page",
   "version": "1.0.0",
+  "homepage": "https://kurecka.github.io",
   "private": true,
   "description": "personal_page",
   "keywords": [
@@ -10,6 +11,8 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -27,6 +30,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "gatsby-plugin-postcss": "^5.17.0",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4"
   }
