@@ -38,7 +38,7 @@ const sections = [
                 'subtext': 'FI, Masaryk University',
             },
             {
-                'title': 'Complexity \& Computability (tutoring)',
+                'title': 'Complexity & Computability (tutoring)',
                 'date': 'Fall 2021',
                 'subtext': 'FI, Masaryk University',
             },
@@ -48,7 +48,7 @@ const sections = [
                 'subtext': 'FI, Masaryk University',
             },
             {
-                'title': 'Algorithms \& Data Structures (tutoring)',
+                'title': 'Algorithms & Data Structures (tutoring)',
                 'date': 'Spring 2020',
                 'subtext': 'FI, Masaryk University',
             },
@@ -120,12 +120,12 @@ function IndexPage() {
         <main>
             <Centered>
             <section>
-            <header className="mt-32 py-med max-w-screen-md">
+            <header className="mt-10 sm:mt-32 py-med max-w-screen-md">
                 <img src={me} className="block mx-auto w-52 rounded-full"></img>
                 <div className="mx-auto my-med relative">
                     <h2 className="font-thin">Hi, I'm</h2>
                     <h1 className="font-thin">Martin Kurečka</h1>
-                    <div className="font-light absolute right-5 top-4">m.kurecka (at) mail.muni.cz</div>
+                    <div className="font-light absolute right-5 top-4 hidden sm:block">m.kurecka (at) mail.muni.cz</div>
                 </div>
                 <p my-1>
                 I am a Master student of Theoretical Computer Science at the <Link className="text-link" to="https://www.fi.muni.cz/">Faculty of Informatics, Masaryk University</Link>.
@@ -133,8 +133,8 @@ function IndexPage() {
                 My research was focused on combinatorial limits and quasirandom permutations.
                 Currently, I am involved in laboratory <Link className="text-link" to="https://formela.fi.muni.cz/">FORMELA</Link>.
                 </p>
-                <p className="my-1 font-light">
-                    
+                <p className="my-5 font-light">
+                m.kurecka (at) mail.muni.cz
                 </p>
             </header>
             </section>
