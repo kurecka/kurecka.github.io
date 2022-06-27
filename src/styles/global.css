@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .py-tiny {
+        @apply py-1
+    }
+
+    .py-small {
+        @apply py-5
+    }
+
+    .py-med {
+        @apply py-10
+    }
+
+    .pt-tiny {
+        @apply pt-1
+    }
+
+    .pt-small {
+        @apply pt-5
+    }
+
+    .pt-med {
+        @apply pt-10
+    }
+
+    h1 {
+        @apply text-6xl my-2;
+    }
+    
+    h2 {
+        @apply text-4xl my-1;
+    }
+    
+    body {
+        @apply bg-back text-content scroll-smooth;
+        font-family:Helvetica Neue, Helvetica, Arial, sans-serif;   
+    }
+
+    .dark {
+        @apply bg-content text-back scroll-smooth;
+    }
+}
+
+@layer components {
+    .cap {
+        @apply uppercase first-letter:text-3xl text-2xl tracking-widest;
+    }
+}

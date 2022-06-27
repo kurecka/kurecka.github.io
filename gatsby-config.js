@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `personal_page`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://kurecka.github.io`
   },
-  plugins: [{
+  plugins: [
+    'gatsby-plugin-postcss',
+    {
     resolve: 'gatsby-plugin-google-analytics',
     options: {
       "trackingId": "G-3S0058JXR5"
@@ -15,5 +17,6 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  }
+  ]
 };
