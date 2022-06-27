@@ -18,8 +18,8 @@ const sections = [
         type: 'events',
         data: [
             {
-                'title': 'TU Wien',
-                'subtext': 'Erasmus echange',
+                'title': 'University of Technology Vienna',
+                'subtext': 'Erasmus exchange',
                 'date': 'March - June 2022',
             },
             {
@@ -94,7 +94,7 @@ const sections = [
             {
                 'title': 'Bachelor’s degree in Mathematical Informatics',
                 'subtext': 'Faculty of Informatics, Masaryk University',
-                'body': <span>Thesis: <span className="font-normal italic">Quasirandomness of Permutations</span>, supervized by prof. Daniel Král</span>,
+                'body': <span>Thesis: <span className="font-normal italic">Quasirandomness of Permutations</span>, supervized by Prof. Daniel Král</span>,
                 'date': '2018 - 2021',
             },
         ]   
@@ -135,7 +135,7 @@ function IndexPage() {
                 </div>
                 <p my-1>
                 I am a Master student of Theoretical Computer Science at the <Link className="text-link" to="https://www.fi.muni.cz/">Faculty of Informatics, Masaryk University</Link>.
-                I finished my Bachelor degree under the supervison of <Link className="text-link" to="https://www.ucw.cz/~kral/index.html.en">Prof. Daniel Král'</Link>.
+                I finished my Bachelor degree under the supervision of <Link className="text-link" to="https://www.ucw.cz/~kral/index.html.en">Prof. Daniel Král'</Link>.
                 My research was focused on combinatorial limits and quasirandom permutations.
                 Currently, I am involved in laboratory <Link className="text-link" to="https://formela.fi.muni.cz/">FORMELA</Link>.
                 </p>
