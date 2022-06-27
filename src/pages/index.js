@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import ContentBlock from '../components/ContentBlock'
 import Centered from '../components/env/Centered'
@@ -118,6 +119,11 @@ function IndexPage() {
     console.log(publications)
     return (
         <main>
+            <Helmet>
+            <meta charSet="utf-8" />
+            <title>Martin Kurečka</title>
+            </Helmet>
+
             <Centered>
             <section>
             <header className="mt-10 sm:mt-32 py-med max-w-screen-md">
