@@ -68,18 +68,23 @@ const sections = [
                 'title': '1st place - Czech and Slovak science competition (SVOČ 2022)',
                 'subtext': 'Category: Graph Theory and Combinatorics',
                 'body': 'Work: Quasirandomness of Permutations',
-                'date': 'May 2022',
+                'date': '2022',
             },
             {
                 'title': 'Dean\'s Award for excellent academic performance',
                 'subtext': undefined,
-                'date': 'June 2021',
+                'date': '2021',
             },
             {
                 'title': 'Dean\'s Award for final thesis',
                 'subtext': undefined,
-                'date': 'June 2021',
+                'date': '2021',
             },
+            {
+                'title': '1st place - National round of Olympiad in Informatics',
+                'date': '2018',
+            },
+            
         ]   
     },
     {
@@ -106,7 +111,7 @@ const sections = [
         data: [
             {
                 'title': 'Scientific computing in Plumed',
-                'date': 'Winter 2021 - present',
+                'date': 'Winter 2021 - Present',
                 'subtext': 'UVT, Masaryk University',
                 'body': 'Development of collective variables for molecular metadynamics based on neural networks.'
             },
